@@ -19,7 +19,7 @@ result=load_library(string)
   if emoticon==nil
    "Sorry, that emoticon was not found"
   else
-    emoticon
+    result[name][:japanese]emoticon
   end
 end
 
