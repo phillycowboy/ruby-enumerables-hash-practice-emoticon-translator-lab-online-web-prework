@@ -25,4 +25,5 @@ result=load_library(string)
     puts "Sorry that emoticon wasn't found."
   end
 end
+result
 end
