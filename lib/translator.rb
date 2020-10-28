@@ -23,6 +23,7 @@ result=load_library(string)
   end
   if result[key]=nil
     puts "Sorry that emoticon wasn't found."
+  end
 end
 binding.pry
 end
