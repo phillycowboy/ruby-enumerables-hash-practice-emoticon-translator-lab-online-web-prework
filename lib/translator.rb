@@ -19,7 +19,6 @@ result=load_library(string)
   emoticon.each do |name, english_emoticon|
   if emoticon={:english=>value[0]}
     result
-
   end
   if emoticon==nil
     puts "Sorry that emoticon wasn't found."
