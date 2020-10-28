@@ -12,7 +12,7 @@ result
 end
 
 def get_japanese_emoticon(string, emoticon)
-  # code goes here
+result=load_library(string)
 end
 
 def get_english_meaning(string, emoticon)
