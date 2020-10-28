@@ -20,7 +20,7 @@ result=load_library(string)
   if emoticon={:english=>value[0]}
     {:english=>value[0]}
   end
-  if emoticon==nil
+  elsif emoticon==nil
     puts "Sorry that emoticon wasn't found."
   end
 end
