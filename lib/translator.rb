@@ -21,7 +21,7 @@ result=load_library(string)
     # {:english=>value[0]}
   end
   if emoticon==nil
-   "Sorry that emoticon wasn't found."
+   "Sorry, that emoticon was not found"
   else
     emoticon
 
