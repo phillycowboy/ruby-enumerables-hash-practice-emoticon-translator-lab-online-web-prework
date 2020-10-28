@@ -20,7 +20,6 @@ result=load_library(string)
   result.each do |key, value|
   if result[key]={:english=>value[0]}
     result
-    binding.pry
   end
 end
 binding.pry
