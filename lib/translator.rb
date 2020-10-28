@@ -20,6 +20,7 @@ result=load_library(string)
 emoticon.each do |key, value|
   if result[key]={:english=>value[0]}
     result
+    binding.pry
   end
 end
 binding.pry
