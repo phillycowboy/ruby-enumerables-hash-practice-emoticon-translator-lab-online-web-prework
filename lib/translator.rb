@@ -4,7 +4,7 @@ require 'pry'
 def load_library(string)
   library=YAML.load_file(string)
   binding.pry
-  # code goes here
+  result={}
 
 end
 
