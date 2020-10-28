@@ -5,7 +5,7 @@ def load_library(string)
   library=YAML.load_file(string)
   result={}
   library.each do |key, value|
-    result[key]={"english_emoticon"=>value[0],"japanese_emoticon"=>value[1]}
+    result[key]={english:value[0], japanese:value[1]}
 
   end
 result
