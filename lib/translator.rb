@@ -4,9 +4,8 @@ require 'pry'
 def load_library(string)
   library=YAML.load_file(string)
   result={}
-  library.each do |key, value|
-    result[key]={english:value[0], japanese:value[1]}
-
+    library.each do |key, value|
+      result[key]={english:value[0], japanese:value[1]}
   end
 result
 end
