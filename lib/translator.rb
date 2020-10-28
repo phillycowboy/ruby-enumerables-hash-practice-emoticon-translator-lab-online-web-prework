@@ -18,7 +18,7 @@ def get_english_meaning(string, emoticon)
 result=load_library(string)
   emoticon.each do |key, value|
   if emoticon={:english=>value[0]}
-    result
+    :english=>value[0]
     binding.pry
   end
   if emoticon==nil
