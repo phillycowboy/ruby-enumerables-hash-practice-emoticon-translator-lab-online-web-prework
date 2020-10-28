@@ -16,7 +16,7 @@ end
 
 def get_english_meaning(string, emoticon)
 result=load_library(string)
-  emoticon.find do |name, value|
+  result.find do |name, value|
   if emoticon={:english=>value[0]}
     {:english=>value[0]}
   end
