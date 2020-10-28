@@ -6,7 +6,7 @@ def load_library(string)
   result={}
   library.each do |key, value|
     result[key]={"english_emoticon"=>value[0],"japanese_emoticon"=>value[1]}
-  
+
   end
 result
 end
