@@ -21,7 +21,7 @@ result=load_library(string)
   if result[key]={:english=>value[0]}
     result
   end
-  if result[key]=nil
+  if result[key]==nil
     puts "Sorry that emoticon wasn't found."
   end
 end
