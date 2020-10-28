@@ -26,6 +26,6 @@ result=load_library(string)
     emoticon
 
   end
-end
+
 
 end
