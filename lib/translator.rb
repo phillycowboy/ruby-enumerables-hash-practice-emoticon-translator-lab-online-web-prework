@@ -5,9 +5,10 @@ def load_library(string)
   library=YAML.load_file(string)
   result={}
   library.each do |key, value|
-    binding.pry
+    result[key]={"english_emoticon"=>value[0],"japanese_emoticon"=>value[1]}
+  
   end
-
+result
 end
 
 def get_japanese_emoticon
