@@ -5,6 +5,9 @@ def load_library(string)
   library=YAML.load_file(string)
   binding.pry
   result={}
+  library.each do |key, value|
+    binding.pry
+  end
 
 end
 
