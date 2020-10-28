@@ -16,5 +16,5 @@ result=load_library(string)
 end
 
 def get_english_meaning(string, emoticon)
-  # code goes here
+result=load_library(string)
 end
