@@ -15,14 +15,14 @@ result=load_library(string)
 end
 
 def get_english_meaning(string, emoticon)
-result=load_library(string)
-  emoticon.each do |name, value|
-  if emoticon={:english=>value[0]}
-    {:english=>value[0]}
-  end
-  if emoticon=nil
-    puts "Sorry that emoticon wasn't found."
-  end
-end
-result
+# result=load_library(string)
+#   emoticon.each do |name, value|
+#   if emoticon={:english=>value[0]}
+#     {:english=>value[0]}
+#   end
+#   if emoticon=nil
+#     puts "Sorry that emoticon wasn't found."
+#   end
+# end
+# result
 end
