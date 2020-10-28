@@ -22,7 +22,7 @@ result=load_library(string)
   end
   if emoticon=nil
     puts "Sorry that emoticon wasn't found."
-  elsif
+  else
     emoticon
 
   end
