@@ -17,4 +17,5 @@ end
 
 def get_english_meaning(string, emoticon)
 result=load_library(string)
+binding.pry
 end
